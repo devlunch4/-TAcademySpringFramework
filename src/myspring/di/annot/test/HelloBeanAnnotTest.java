@@ -23,5 +23,9 @@ public class HelloBeanAnnotTest {
 		Hello hello = context.getBean("hello",Hello.class);
 		assertEquals("Hello Spring", hello.sayHello());
 	
+//		hello.print();
+//
+//		Printer printer = context.getBean("stringPrinter", Printer.class);
+//		assertEquals("Hello Spring", printer.toString());
 	}
 }
